@@ -19,6 +19,10 @@
 		CDC33DDB1839B7F8000149CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC33DC31839B7F8000149CE /* UIKit.framework */; };
 		CDC33DE31839B7F8000149CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDC33DE11839B7F8000149CE /* InfoPlist.strings */; };
 		CDC33DE51839B7F8000149CE /* myAnimationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC33DE41839B7F8000149CE /* myAnimationTestTests.m */; };
+		CDC33DF31839B9F2000149CE /* rootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC33DF11839B9F2000149CE /* rootViewController.m */; };
+		CDC33DF41839B9F2000149CE /* rootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDC33DF21839B9F2000149CE /* rootViewController.xib */; };
+		CDC33DF81839C907000149CE /* baseAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC33DF61839C907000149CE /* baseAnimationViewController.m */; };
+		CDC33DF91839C907000149CE /* baseAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDC33DF71839C907000149CE /* baseAnimationViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		CDC33DE01839B7F8000149CE /* myAnimationTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myAnimationTestTests-Info.plist"; sourceTree = "<group>"; };
 		CDC33DE21839B7F8000149CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CDC33DE41839B7F8000149CE /* myAnimationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myAnimationTestTests.m; sourceTree = "<group>"; };
+		CDC33DF01839B9F2000149CE /* rootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rootViewController.h; sourceTree = "<group>"; };
+		CDC33DF11839B9F2000149CE /* rootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rootViewController.m; sourceTree = "<group>"; };
+		CDC33DF21839B9F2000149CE /* rootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = rootViewController.xib; sourceTree = "<group>"; };
+		CDC33DF51839C907000149CE /* baseAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseAnimationViewController.h; sourceTree = "<group>"; };
+		CDC33DF61839C907000149CE /* baseAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseAnimationViewController.m; sourceTree = "<group>"; };
+		CDC33DF71839C907000149CE /* baseAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = baseAnimationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,7 @@
 			children = (
 				CDC33DCE1839B7F8000149CE /* AppDelegate.h */,
 				CDC33DCF1839B7F8000149CE /* AppDelegate.m */,
+				CDC33DEF1839B9A0000149CE /* animationControllers */,
 				CDC33DD11839B7F8000149CE /* Images.xcassets */,
 				CDC33DC61839B7F8000149CE /* Supporting Files */,
 			);
@@ -142,6 +153,19 @@
 				CDC33DE11839B7F8000149CE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDC33DEF1839B9A0000149CE /* animationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CDC33DF01839B9F2000149CE /* rootViewController.h */,
+				CDC33DF11839B9F2000149CE /* rootViewController.m */,
+				CDC33DF21839B9F2000149CE /* rootViewController.xib */,
+				CDC33DF51839C907000149CE /* baseAnimationViewController.h */,
+				CDC33DF61839C907000149CE /* baseAnimationViewController.m */,
+				CDC33DF71839C907000149CE /* baseAnimationViewController.xib */,
+			);
+			path = animationControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +245,8 @@
 			files = (
 				CDC33DCA1839B7F8000149CE /* InfoPlist.strings in Resources */,
 				CDC33DD21839B7F8000149CE /* Images.xcassets in Resources */,
+				CDC33DF91839C907000149CE /* baseAnimationViewController.xib in Resources */,
+				CDC33DF41839B9F2000149CE /* rootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDC33DD01839B7F8000149CE /* AppDelegate.m in Sources */,
+				CDC33DF31839B9F2000149CE /* rootViewController.m in Sources */,
+				CDC33DF81839C907000149CE /* baseAnimationViewController.m in Sources */,
 				CDC33DCC1839B7F8000149CE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +392,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "myAnimationTest/myAnimationTest-Prefix.pch";
 				INFOPLIST_FILE = "myAnimationTest/myAnimationTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -377,6 +406,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "myAnimationTest/myAnimationTest-Prefix.pch";
 				INFOPLIST_FILE = "myAnimationTest/myAnimationTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
