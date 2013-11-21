@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD5DBEEE183B5A9300334606 /* radar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5DBEEC183B5A9200334606 /* radar_bg.png */; };
+		CD5DBEEF183B5A9300334606 /* radar14.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5DBEED183B5A9200334606 /* radar14.png */; };
+		CD5DBEF3183B5AA900334606 /* radarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5DBEF1183B5AA900334606 /* radarViewController.m */; };
+		CD5DBEF4183B5AA900334606 /* radarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD5DBEF2183B5AA900334606 /* radarViewController.xib */; };
+		CD5DBEF6183B5C5400334606 /* s_n_radar_btn_hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5DBEF5183B5C5400334606 /* s_n_radar_btn_hover@2x.png */; };
 		CDC33DC01839B7F8000149CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC33DBF1839B7F8000149CE /* Foundation.framework */; };
 		CDC33DC21839B7F8000149CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC33DC11839B7F8000149CE /* CoreGraphics.framework */; };
 		CDC33DC41839B7F8000149CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC33DC31839B7F8000149CE /* UIKit.framework */; };
@@ -23,6 +28,7 @@
 		CDC33DF41839B9F2000149CE /* rootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDC33DF21839B9F2000149CE /* rootViewController.xib */; };
 		CDC33DF81839C907000149CE /* baseAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC33DF61839C907000149CE /* baseAnimationViewController.m */; };
 		CDC33DF91839C907000149CE /* baseAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDC33DF71839C907000149CE /* baseAnimationViewController.xib */; };
+		CDF99044183C94CF001F2322 /* radar6.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF99043183C94CF001F2322 /* radar6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD5DBEEC183B5A9200334606 /* radar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radar_bg.png; sourceTree = "<group>"; };
+		CD5DBEED183B5A9200334606 /* radar14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radar14.png; sourceTree = "<group>"; };
+		CD5DBEF0183B5AA900334606 /* radarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = radarViewController.h; sourceTree = "<group>"; };
+		CD5DBEF1183B5AA900334606 /* radarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = radarViewController.m; sourceTree = "<group>"; };
+		CD5DBEF2183B5AA900334606 /* radarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = radarViewController.xib; sourceTree = "<group>"; };
+		CD5DBEF5183B5C5400334606 /* s_n_radar_btn_hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "s_n_radar_btn_hover@2x.png"; sourceTree = "<group>"; };
 		CDC33DBC1839B7F8000149CE /* myAnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myAnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC33DBF1839B7F8000149CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDC33DC11839B7F8000149CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,6 +70,7 @@
 		CDC33DF51839C907000149CE /* baseAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseAnimationViewController.h; sourceTree = "<group>"; };
 		CDC33DF61839C907000149CE /* baseAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseAnimationViewController.m; sourceTree = "<group>"; };
 		CDC33DF71839C907000149CE /* baseAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = baseAnimationViewController.xib; sourceTree = "<group>"; };
+		CDF99043183C94CF001F2322 /* radar6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radar6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +97,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD5DBEEA183B5A3600334606 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CD5DBEEB183B5A8100334606 /* radar */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		CD5DBEEB183B5A8100334606 /* radar */ = {
+			isa = PBXGroup;
+			children = (
+				CD5DBEF5183B5C5400334606 /* s_n_radar_btn_hover@2x.png */,
+				CD5DBEEC183B5A9200334606 /* radar_bg.png */,
+				CDF99043183C94CF001F2322 /* radar6.png */,
+				CD5DBEED183B5A9200334606 /* radar14.png */,
+			);
+			path = radar;
+			sourceTree = "<group>";
+		};
 		CDC33DB31839B7F8000149CE = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +153,7 @@
 				CDC33DCF1839B7F8000149CE /* AppDelegate.m */,
 				CDC33DEF1839B9A0000149CE /* animationControllers */,
 				CDC33DD11839B7F8000149CE /* Images.xcassets */,
+				CD5DBEEA183B5A3600334606 /* images */,
 				CDC33DC61839B7F8000149CE /* Supporting Files */,
 			);
 			path = myAnimationTest;
@@ -164,6 +197,9 @@
 				CDC33DF51839C907000149CE /* baseAnimationViewController.h */,
 				CDC33DF61839C907000149CE /* baseAnimationViewController.m */,
 				CDC33DF71839C907000149CE /* baseAnimationViewController.xib */,
+				CD5DBEF0183B5AA900334606 /* radarViewController.h */,
+				CD5DBEF1183B5AA900334606 /* radarViewController.m */,
+				CD5DBEF2183B5AA900334606 /* radarViewController.xib */,
 			);
 			path = animationControllers;
 			sourceTree = "<group>";
@@ -243,9 +279,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD5DBEEE183B5A9300334606 /* radar_bg.png in Resources */,
+				CDF99044183C94CF001F2322 /* radar6.png in Resources */,
+				CD5DBEEF183B5A9300334606 /* radar14.png in Resources */,
 				CDC33DCA1839B7F8000149CE /* InfoPlist.strings in Resources */,
 				CDC33DD21839B7F8000149CE /* Images.xcassets in Resources */,
 				CDC33DF91839C907000149CE /* baseAnimationViewController.xib in Resources */,
+				CD5DBEF4183B5AA900334606 /* radarViewController.xib in Resources */,
+				CD5DBEF6183B5C5400334606 /* s_n_radar_btn_hover@2x.png in Resources */,
 				CDC33DF41839B9F2000149CE /* rootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +308,7 @@
 			files = (
 				CDC33DD01839B7F8000149CE /* AppDelegate.m in Sources */,
 				CDC33DF31839B9F2000149CE /* rootViewController.m in Sources */,
+				CD5DBEF3183B5AA900334606 /* radarViewController.m in Sources */,
 				CDC33DF81839C907000149CE /* baseAnimationViewController.m in Sources */,
 				CDC33DCC1839B7F8000149CE /* main.m in Sources */,
 			);
@@ -473,6 +515,7 @@
 				CDC33DEA1839B7F8000149CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDC33DEB1839B7F8000149CE /* Build configuration list for PBXNativeTarget "myAnimationTestTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +524,7 @@
 				CDC33DED1839B7F8000149CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

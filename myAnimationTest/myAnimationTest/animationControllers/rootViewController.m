@@ -8,7 +8,7 @@
 
 #import "rootViewController.h"
 #import "baseAnimationViewController.h"
-
+#import "radarViewController.h"
 @interface rootViewController ()
 {
     
@@ -45,6 +45,7 @@
 	NSMutableArray *layersList = [NSMutableArray array];
     
     [layersList addObject:[baseAnimationViewController class]];
+    [layersList addObject:[radarViewController class]];
     
 	NSDictionary *layers = @{@"Core Animation": layersList};
     
@@ -77,7 +78,9 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return ((NSDictionary *)_items[section]).count;
+    NSDictionary *dic = _items[section];
+    NSMutableArray *animationArray= [dic objectForKey:dic.allKeys[0]];
+    return animationArray.count;
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
@@ -110,5 +113,6 @@
     id controller = [[clazz alloc] init];
 	[self.navigationController pushViewController:controller animated:YES];
 }
+
 
 @end
