@@ -69,6 +69,7 @@
 
 -(IBAction)changePosition:(id)sender
 {
+
 //    CABasicAnimation *anim = [CABasicAnimation animationWithKeyPath:@"transform"];
 //    anim.duration = 1;
 //    
@@ -88,6 +89,7 @@
     } completion:^(BOOL finished) {
         
     }];
+
 }
 
 
